@@ -1,0 +1,219 @@
+[
+  {
+    "id": 0,
+    "question": "What is the color of the White House?",
+    "answers": [{
+      "id": "A",
+      "answer": "Pink"
+    },{
+      "id": "B",
+      "answer": "Blue"
+    },{
+      "id": "C",
+      "answer": "White"
+    },{
+      "id": "D",
+      "answer": "Rainbow"
+    }],
+    "correctAnswer": "C",
+    "reward": 500
+  },{
+  "id": 1,
+  "question": "How many legs does a spider typically have?",
+  "answers": [{
+    "id": "A",
+    "answer": "100"
+  },{
+    "id": "B",
+    "answer": "2"
+  },{
+    "id": "C",
+    "answer": "8"
+  },{
+    "id": "D",
+    "answer": "4"
+  }],
+  "correctAnswer": "C",
+  "reward": 1000
+},{
+  "id": 2,
+  "question": "What do you call a group of crows?",
+  "answers": [{
+    "id": "A",
+    "answer": "A flock"
+  },{
+    "id": "B",
+    "answer": "A murder"
+  },{
+    "id": "C",
+    "answer": "A gaggle"
+  },{
+    "id": "D",
+    "answer": "A herd"
+  }],
+  "correctAnswer": "B",
+  "reward": 2000
+},{
+  "id": 3,
+  "question": "What is the capital of Australia?",
+  "answers": [{
+    "id": "A",
+    "answer": "Sydney"
+  },{
+    "id": "B",
+    "answer": "Melbourne"
+  },{
+    "id": "C",
+    "answer": "Brisbane"
+  },{
+    "id": "D",
+    "answer": "Canberra"
+  }],
+  "correctAnswer": "D",
+  "reward": 4000
+},{
+  "id": 4,
+  "question": "What is the world's largest ocean?",
+  "answers": [{
+    "id": "A",
+    "answer": "Atlantic"
+  },{
+    "id": "B",
+    "answer": "Indian"
+  },{
+    "id": "C",
+    "answer": "Pacific"
+  },{
+    "id": "D",
+    "answer": "Arctic"
+  }],
+  "correctAnswer": "C",
+  "reward": 8000
+},{
+  "id": 5,
+  "question": "Who wrote the \"Game of Thrones\" series of books?",
+  "answers": [{
+    "id": "A",
+    "answer": "J.K. Rowling"
+  },{
+    "id": "B",
+    "answer": "George R. R. Martin"
+  },{
+    "id": "C",
+    "answer": "Stephen King"
+  },{
+    "id": "D",
+    "answer": "Suzanne Collins"
+  }],
+  "correctAnswer": "B",
+  "reward": 16000
+},{
+  "id": 6,
+  "question": "What is the square root of 144?",
+  "answers": [{
+    "id": "A",
+    "answer": "12"
+  },{
+    "id": "B",
+    "answer": "14"
+  },{
+    "id": "C",
+    "answer": "16"
+  },{
+    "id": "D",
+    "answer": "18"
+  }],
+  "correctAnswer": "A",
+  "reward": 32000
+},{
+  "id": 7,
+  "question": "Which planet is known as the \"Red Planet\"?",
+  "answers": [{
+    "id": "A",
+    "answer": "Venus"
+  },{
+    "id": "B",
+    "answer": "Mars"
+  },{
+    "id": "C",
+    "answer": "Jupiter"
+  },{
+    "id": "D",
+    "answer": "Saturn"
+  }],
+  "correctAnswer": "B",
+  "reward": 64000
+},{
+  "id": 8,
+  "question": "What is the chemical symbol for gold?",
+  "answers": [{
+    "id": "A",
+    "answer": "Gd"
+  },{
+    "id": "B",
+    "answer": "Go"
+  },{
+    "id": "C",
+    "answer": "Au"
+  },{
+    "id": "D",
+    "answer": "Ag"
+  }],
+  "correctAnswer": "C",
+  "reward": 125000
+},{
+  "id": 9,
+  "question": "Who painted the Mona Lisa?",
+  "answers": [{
+    "id": "A",
+    "answer": "Vincent Van Gogh"
+  },{
+    "id": "B",
+    "answer": "Pablo Picasso"
+  },{
+    "id": "C",
+    "answer": "Leonardo da Vinci"
+  },{
+    "id": "D",
+    "answer": "Michelangelo"
+  }],
+  "correctAnswer": "C",
+  "reward": 250000
+},{
+  "id": 10,
+  "question": "What is the name of the longest river in the world?",
+  "answers": [{
+    "id": "A",
+    "answer": "Amazon"
+  },{
+    "id": "B",
+    "answer": "Nile"
+  },{
+    "id": "C",
+    "answer": "Yangtze"
+  },{
+    "id": "D",
+    "answer": "Mississippi"
+  }],
+  "correctAnswer": "B",
+  "reward": 500000
+},{
+  "id": 11,
+  "question": "Who was the first person to walk on the moon?",
+  "answers": [{
+    "id": "A",
+    "answer": "Buzz Aldrin"
+  },{
+    "id": "B",
+    "answer": "Neil Armstrong"
+  },{
+    "id": "C",
+    "answer": "Yuri Gagarin"
+  },{
+    "id": "D",
+    "answer": "Michael Collins"
+  }],
+  "correctAnswer": "B",
+  "reward": 1000000
+}
+]

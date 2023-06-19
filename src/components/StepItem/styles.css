@@ -1,0 +1,42 @@
+.step-item-component-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.step-item-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 40px;
+}
+
+.reward {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.inactive .reward {
+  color: #1C1C21;
+}
+.active .reward {
+  color: #FF8B37;
+}
+.disabled .reward {
+  color: #D0D0D8;
+}
+
+@media (max-width: 1240px) {
+  .step-item-content-wrapper {
+    height: 32px;
+  }
+}
+

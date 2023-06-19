@@ -1,0 +1,66 @@
+.button {
+  height: 64px;
+  width: 296px;
+  border-radius: 12px;
+  padding: 21px 24px;
+  box-sizing: border-box;
+
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 116%;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+
+  background: #FF8B37;
+  color: #FFFFFF;
+}
+
+.inactive, .disabled, .active, .correct, .wrong, .selected {
+  background-size: 100% 100% !important;
+}
+.inactive {
+  background: url("assets/grey_frame.png");
+}
+.disabled {
+  background: url("assets/grey_frame.png");
+}
+.active {
+  background: url("assets/orange_frame.png");
+}
+.correct {
+  background: url("assets/filled_green_frame.png");
+}
+.wrong {
+  background: url("assets/filled_red_frame.png");
+}
+.selected {
+  background: url("assets/filled_orange_frame.png");
+}
+.grey-line {
+  display: flex;
+  flex-grow: 1;
+  height: 1px;
+  background: #D0D0D8;
+}
+
+.grey-line.correct {
+  background: #47D867;
+}
+.grey-line.wrong {
+  background: #EC6259;
+}
+.grey-line.selected, .grey-line.active  {
+  background: #FF8B37;
+}
+
+@media (max-width: 1100px) {
+  .button {
+    height: 48px;
+    width: 288px;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-size: 14px;
+  }
+}

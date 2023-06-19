@@ -1,0 +1,59 @@
+.answer-item-component-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 421px;
+  cursor: pointer;
+}
+
+.answer-item-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 48px 0 32px;
+  height: 72px;
+  width: 389px;
+  box-sizing: border-box;
+}
+.answer-item-component-wrapper:hover .answer-item-content-wrapper.inactive {
+  background: url("assets/orange_frame.png");
+}
+.answer-item-component-wrapper:hover .grey-line.inactive {
+  background: #FF8B37;
+}
+
+.answer-item-content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.answer-text {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #1C1C21;
+}
+
+.answer-letter-var {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #FF8B37;
+}
+
+@media (max-width: 870px) {
+  .answer-item-component-wrapper {
+    min-width: 100%;
+  }
+  .answer-item-content-wrapper {
+    width: 288px;
+    height: 56px;
+  }
+}

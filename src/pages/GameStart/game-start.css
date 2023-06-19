@@ -1,0 +1,56 @@
+.start-game-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: url("assets/page_bg.webp") #FFFFFF no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.finger-up-img {
+  width: 624px;
+  height: auto;
+}
+
+.start-game-page-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 64px;
+  max-width: 624px;
+}
+
+.start-game-page-title {
+  font-family: Inter, sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 116%;
+  letter-spacing: 0;
+  text-align: left;
+  color: #1C1C21;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1100px) {
+  .start-game-wrapper {
+    flex-direction: column;
+  }
+  .start-game-page-title {
+    text-align: center;
+    font-size: 32px;
+    max-width: 288px;
+  }
+  .start-game-page-text-block {
+    align-items: center;
+    gap: 128px;
+  }
+  .finger-up-img {
+    width: 288px;
+  }
+}
